@@ -18,7 +18,7 @@ import UseReducer from "./Pages/UseReducer/UseReducer";
 
 function App() {
   return (
-  <Router >
+  <Router>
    <nav>
      <button><Link to="/">Home</Link></button>
      <button><Link to="about">About</Link></button>
