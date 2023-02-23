@@ -1,0 +1,17 @@
+.my-btn {
+  background-color: darkviolet; 
+  border: 2px solid #4CAF50;
+  border-radius: 20px;
+  color: cyan; 
+  padding: 10px 15px;
+  text-align: center;
+  display: block;
+  font-size: medium;
+  margin: auto;
+}
+
+.loginBox {
+  border: 5px ridge cyan;
+  margin: 10px;
+  padding: 10px;
+}
