@@ -14,6 +14,7 @@ import Father from "./Pages/ContextApi/Father";
 import Category from "./Pages/Category/Category";
 import Login from "./Pages/Login/App";
 import UseReducer from "./Pages/UseReducer/UseReducer";
+import LoginPage from "./Pages/LoginPage/LoginPage";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
      <button><Link to="ContextApi">ContextApi</Link></button>
      <button><Link to="Category">Category</Link></button>
      <button><Link to="login">Login</Link></button>
+     <button><Link to="LoginPage">LoginPage</Link></button>
      <button><Link to="UseReducer">UseReducer</Link></button>
    </nav>
     <Routes >
@@ -34,6 +36,7 @@ function App() {
        <Route path="ContextApi" element={<Father/>} />
        <Route path="Category" element={<Category/>} />
        <Route path="login" element={<Login/>} />
+       <Route path="LoginPage" element={<LoginPage/>} />
        <Route path="UseReducer" element={<UseReducer/>} />
        
        <Route path="/" element={<Home/>} >
