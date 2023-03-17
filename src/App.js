@@ -15,6 +15,7 @@ import Category from "./Pages/Category/Category";
 import Login from "./Pages/Login/App";
 import UseReducer from "./Pages/UseReducer/UseReducer";
 import LoginPage from "./Pages/LoginPage/LoginPage";
+import OpenStreet from "./Pages/OpenStreet/OpenStreet";
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
      <button><Link to="login">Login</Link></button>
      <button><Link to="LoginPage">LoginPage</Link></button>
      <button><Link to="UseReducer">UseReducer</Link></button>
+     <button><Link to="OpenStreet">OpenStreet</Link></button>
    </nav>
     <Routes >
        <Route path="navlink" element={<NavLink/>} />
@@ -38,6 +40,7 @@ function App() {
        <Route path="login" element={<Login/>} />
        <Route path="LoginPage" element={<LoginPage/>} />
        <Route path="UseReducer" element={<UseReducer/>} />
+       <Route path="OpenStreet" element={<OpenStreet/>} />
        
        <Route path="/" element={<Home/>} >
          <Route index element={<Navigation/>}  />  
