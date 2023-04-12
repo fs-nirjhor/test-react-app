@@ -1,0 +1,21 @@
+$font-color: blue ;
+$bg-color: violet ;
+$button-radius: 10px;
+$button-padding: 5px;
+
+a {
+  border: 1px solid darkgray;
+  margin: 5px;
+  padding: 3px;
+  text-decoration: none;
+}
+body {
+  color: $font-color;
+  text-align: center;
+  background-color: $bg-color ;
+}
+button {
+  margin: 10px ;
+  border-radius: $button-radius;
+  padding: $button-padding;
+}
